@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephie's Blog Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contents.css">
+    <link rel="stylesheet" href="contactform.css">
+    <link rel="shortcut icon" href="Images/StephieIcon.jpg" type="image/jpg">
+</head>
+<body>
+    <header class="header">
+        <div id="logo"><a href="index.html">StephieSparda</a></div>
+            <nav id="navbar">
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="inex.html">Blogs and Reviews</a></li>
+                <li><a href="index.html">3D Modeling and Art</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+
+                </ul>
+            </nav>
+            <label class="hamburger" id="hamburger">
+                <img src="Images/Logos/NavHamburger.png" alt="Hamburger">
+            </label>
+    </header>
+    <div class="content">
+
+        <h1>Contact Me!</h1>
+        <form class="contact" action="https://formsubmit.co/stephaniesparda@gmail.com" method="POST">
+            <div class="name">
+                <label for="firstName">* First Name: </label>
+                <input type="text" name="firstName" id="" placeholder="First Name" required="required">
+            </div>
+            <div class="name">
+                <label for="lastName">* Last Name: </label>
+                <input type="text" name="lastName" id="" placeholder="Last Name" required="required">
+            </div >
+            <div class="email">
+                <label for="email">* Email Address: </label>
+                <input type="email" name="email" id="" placeholder="email@gmail.com" required="required">
+            </div>
+            <div class="comment">
+                <label for="details">* Message: </label>
+                <textarea name="details" id="" cols="30" rows="10" placeholder="Post your message here."></textarea>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
+    </div>
+    <footer class="footer">
+        <div>
+            <ul class="external">
+                <li> <a href="https://twitter.com/StephieSparda"><img src="Images/Logos/TwitterLogo.png" alt="My Twitter"></a></li>
+                <li> <a href="https://www.youtube.com/channel/UCmgCbWgWhztsAIE490PjL6w"><img src="Images/Logos/YouTube.png" alt="My Twitter"></a></li>
+            </ul>
+        </div>
+        <div id="copyright">Copyright &copy; StephieSparda 2022. All rights reserved.</div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

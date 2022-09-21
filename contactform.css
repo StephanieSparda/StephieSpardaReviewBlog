@@ -1,0 +1,70 @@
+
+.content h1{
+    font-family: Montserrat;
+    font-size: 40px;
+    text-align: center;
+}
+
+.contact{
+    width: 75%;
+    margin: auto;
+    display: block;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+.contact input{
+    font-size: 20px;
+    font-family: Montserrat;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.contact label{
+    font-weight: 900;
+}
+
+.contact textarea{
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: Montserrat;
+}
+
+.contact div{
+    margin-bottom: 40px;
+}
+
+.name{
+    float: left;
+    width: 100%;
+}
+.email{
+    float: left;
+    width: 100%;
+}
+
+.comment{
+    float: left;
+    width: 100%;
+}
+.submit{
+    width: 60%;
+    margin: auto;
+    height: fit-content;
+}
+.submit input{
+    padding: 20px;
+    border-radius: 40px;
+    border: solid 2px deeppink;
+    color: deeppink;
+    background-color: aliceblue;
+    transition: .3s;
+}
+.submit input:hover{
+    background-color: deeppink;
+    color: aliceblue;
+}

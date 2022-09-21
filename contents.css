@@ -1,0 +1,97 @@
+.previewbox{
+    background-color:rgb(247, 250, 253);
+    filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.2));
+    padding: 20px;
+    width: 60%;
+    height: 100%;
+    margin: 10px;
+    display: block;
+    border-radius: 10px;
+}
+
+.sidebar{
+    filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.2));
+    width: 35%;
+    height: auto;
+    margin: 10px;
+    display: block;
+    font-family: Montserrat;
+
+}
+
+.maincontent{
+    display: flex;
+}
+
+.sidebar h2{
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.signup{
+    padding: 30px;
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.sidebar .signup form label{
+    padding-bottom: 30px;
+}
+
+.sidebar input, .sidebar textarea{
+    font-size: 18px;
+    padding: 5px;
+    width: 100%;
+    font-family: Montserrat;
+}
+
+.sidebar div{
+    margin: auto;
+    background-color: rgb(247, 250, 253);
+    height: fit-content;
+    width: auto;
+    filter: drop-shadow(0px 0px 7px rgba(0, 0, 0, 0.2));
+    margin-bottom: 60px;
+}
+
+.submitbutton{
+    margin: auto;
+    padding: 10px;
+    border-radius: 40px;
+    border: solid 2px deeppink;
+    color: deeppink;
+    background-color: rgb(247, 250, 253);
+    background-color: none;
+    transition: .3s;
+}
+
+.submitbutton:hover{
+    background-color: deeppink;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+@media(max-width: 1100px){
+    .previewbox{
+        width: 80%;
+        margin: auto;
+    }
+    .sidebar{
+        width: 80%;
+        margin: auto;
+        padding-top: 20px;
+    }
+    .signup{
+        padding: 30px;
+        margin: auto;
+    }
+
+    .maincontent{
+        display: block;
+    }
+}
